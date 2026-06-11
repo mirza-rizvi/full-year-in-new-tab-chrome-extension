@@ -1,0 +1,28 @@
+{
+  "name": "full-year-in-new-tab",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Full Year in New Tab — a minimal Chrome MV3 full-year calendar.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "release": "bash release.sh"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.5",
+    "@types/chrome": "^0.1.43",
+    "happy-dom": "^20.10.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vite-plugin-static-copy": "^4.1.1",
+    "vitest": "^4.1.8"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.3.1",
+    "preact": "^10.25.1"
+  }
+}

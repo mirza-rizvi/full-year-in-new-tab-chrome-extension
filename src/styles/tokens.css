@@ -1,0 +1,139 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root[data-theme="dark"] {
+  --page-bg: #000;
+  --card-surface: #000;
+  --card-border: #242424;
+  --card-shadow: 0 8px 48px rgba(0,0,0,0.95);
+
+  --text-primary: #fff;
+  --text-secondary: #b6b6b6;
+  --text-muted: #9f9f9f;
+  --text-soft: #868686;
+  --text-strong: #dedede;
+  --text-weekend: #c2c2c2;
+  --text-workday: #eeeeee;
+  --text-past-day: #777;
+  --text-future-day: #dedede;
+
+  --rule: #202020;
+  --header-rule: #202020;
+  --current-month-bg: #090909;
+  --future-month-bg: #020202;
+  --past-month-op: 0.82;
+
+  --today-bg: #fff;
+  --today-text: #000;
+  --current-week-bg: rgba(255,255,255,0.06);
+  --selected-week-bg: rgba(255,255,255,0.075);
+  --selected-column-bg: rgba(255,255,255,0.045);
+  --selected-column-ring: rgba(255,255,255,0.34);
+  --preview-week-bg: rgba(255,255,255,0.04);
+  --preview-week-ring: rgba(255,255,255,0.24);
+  --weekend-bg: rgba(255,255,255,0.02);
+  --workday-bg: rgba(255,255,255,0.025);
+
+  --hover-bg: #141414;
+  --focus-ring: #fff;
+  --error: #ff7a7a;
+  --warn: #ffb86b;
+  --success: #7ed8a4;
+
+  --progress-bg: #161616;
+  --progress-fill: #fff;
+
+  --quarter-color: #7f7f7f;
+  --quarter-boundary: #3d3d3d;
+
+  --pill-border: #3b3b3b;
+  --pill-text: #d5d5d5;
+  --pill-hover-bg: #111;
+  --pill-hover-text: #fff;
+
+  --panel-surface: #060606;
+  --panel-border: #1c1c1c;
+  --panel-grip: #333;
+  --panel-grip-active: #fff;
+
+  --input-bg: #0d0d0d;
+  --input-border: #232323;
+  --input-text: #f0f0f0;
+
+  --heatmap-base: 255, 255, 255;
+
+  --selected-ring: #ffffff;
+
+  --scrim: rgba(0, 0, 0, 0.72);
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --page-bg: #f0ede8;
+  --card-surface: #faf9f7;
+  --card-border: #ddd8d0;
+  --card-shadow: 0 2px 20px rgba(0,0,0,0.07), 0 1px 4px rgba(0,0,0,0.04);
+
+  --text-primary: #1a1916;
+  --text-secondary: #5f5950;
+  --text-muted: #726d66;
+  --text-soft: #857d74;
+  --text-strong: #28261f;
+  --text-weekend: #5d554b;
+  --text-workday: #1f1d19;
+  --text-past-day: #9a9288;
+  --text-future-day: #28261f;
+
+  --rule: #e5e1da;
+  --header-rule: #e6e1d9;
+  --current-month-bg: #fdf8f2;
+  --future-month-bg: #fbfaf8;
+  --past-month-op: 0.9;
+
+  --today-bg: #c46f12;
+  --today-text: #fff;
+  --current-week-bg: rgba(196,111,18,0.09);
+  --selected-week-bg: rgba(196,111,18,0.095);
+  --selected-column-bg: rgba(196,111,18,0.055);
+  --selected-column-ring: rgba(196,111,18,0.3);
+  --preview-week-bg: rgba(196,111,18,0.055);
+  --preview-week-ring: rgba(196,111,18,0.22);
+  --weekend-bg: rgba(196,111,18,0.025);
+  --workday-bg: rgba(255,255,255,0.4);
+
+  --hover-bg: #f1ece4;
+  --focus-ring: #8e5406;
+  --error: #c44848;
+  --warn: #c47a18;
+  --success: #2f8c5a;
+
+  --progress-bg: #e8e2d9;
+  --progress-fill: #c46f12;
+
+  --quarter-color: #8e8377;
+  --quarter-boundary: #c8b8a6;
+
+  --pill-border: #cfc8bf;
+  --pill-text: #5f5950;
+  --pill-hover-bg: #f1ece4;
+  --pill-hover-text: #1a1916;
+
+  --panel-surface: #faf7f1;
+  --panel-border: #e1dccf;
+  --panel-grip: #cfc8bf;
+  --panel-grip-active: #8e5406;
+
+  --input-bg: #fff;
+  --input-border: #d8d2c6;
+  --input-text: #1a1916;
+
+  --heatmap-base: 196, 111, 18;
+
+  --selected-ring: #c46f12;
+
+  --scrim: rgba(34, 30, 22, 0.45);
+
+  color-scheme: light;
+}

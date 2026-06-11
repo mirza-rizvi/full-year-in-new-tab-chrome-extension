@@ -1,0 +1,27 @@
+# macOS metadata
+.DS_Store
+
+# Local tool state
+.claude/
+.agents/
+.codex/
+
+# Agent-specific local instructions
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.github/copilot-instructions.md
+docs/agents/
+
+# Local design scratch
+Improvements/
+
+# Generated release archives
+full-year-in-new-tab-v*.zip
+
+# Node / build
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/

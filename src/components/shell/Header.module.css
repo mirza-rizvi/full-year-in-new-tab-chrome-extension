@@ -1,0 +1,74 @@
+.header {
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--header-rule);
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: clamp(12px, 1.2vw, 20px);
+  padding: clamp(10px, 1.2vh, 16px) clamp(14px, 1.6vw, 26px);
+}
+
+.copy {
+  min-width: 0;
+}
+
+.year {
+  margin: 0;
+  font-family: ui-serif, Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3.4vh, 2.6rem);
+  line-height: 1;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+}
+
+.label {
+  margin: 0.4rem 0 0;
+  font-size: clamp(0.66rem, 1.04vh, 0.82rem);
+  color: var(--text-secondary);
+  user-select: none;
+}
+
+.selectedContext {
+  margin: 0.35rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  font-size: clamp(0.64rem, 0.98vh, 0.78rem);
+  color: var(--text-muted);
+}
+
+.selectedContext span:first-child {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.4rem;
+}
+
+.progressTrack {
+  height: 3px;
+  background: var(--progress-bg);
+  position: relative;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0 clamp(14px, 1.6vw, 26px) 6px;
+}
+
+.progressFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  height: 100%;
+  background: var(--progress-fill);
+  border-radius: 999px;
+  opacity: 0.85;
+  transition: width 0.2s ease-out;
+}
